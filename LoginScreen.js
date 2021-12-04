@@ -32,7 +32,7 @@ const LoginScreen =()=>{
             }}
             value={password}></TextInput>
             {password.length < 5 ?<Text></Text>:null}
-            <Button title = 'LOGIN' ></Button>
+            <Button title = 'LOGIN' onPress={()=>{window.location.href='HomeScreen.js'}}></Button>
       </View>
       </>
 };
